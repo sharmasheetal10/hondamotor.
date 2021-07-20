@@ -1,0 +1,43 @@
+body{
+  box-sizing: border-box;
+}
+.contact-btn {
+  background: #EA2A36;
+  color: white;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  border: 1px solid #EA2A36;
+  color: #EA2A36;
+
+}
+
+
+.navitem:hover{
+    color: #EA2A36;
+    border-bottom: 1px solid #EA2A36;
+}
+
+.navitem{
+
+    text-decoration: none !important;
+    color: inherit;
+
+}
+
+@media(max-width: 320px){
+  .cardi{
+    flex-direction: column;
+  }
+}
+@media(max-width: 375px){
+  .cardi{
+    flex-direction: column;
+  }
+}
+@media(max-width: 425px){
+  .cardi{
+    flex-direction: column;
+  }
+}
